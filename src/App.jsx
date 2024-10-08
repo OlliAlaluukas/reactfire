@@ -14,6 +14,8 @@ function App() {
 
   return (
     <div>
+      <h1>Firebase esimerkki</h1>
+      <p>Data haetaan sivulta https://jsonplaceholder.typicode.com/users</p>
       Users
       {post.map((item, i) => {
         return (
